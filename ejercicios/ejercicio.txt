@@ -1,0 +1,66 @@
+Funcion prom <- promedio (notas1)
+	
+	Para i=0 Hasta 29 Hacer
+		prom=prom+notas1[i];
+		
+	FinPara
+	prom=prom/30
+	Escribir "el promedio es:" prom
+Fin Funcion
+
+
+Funcion llenar (notas1)
+
+	Para i=0 Hasta 29 Hacer
+		notas1[i]=azar(11)
+
+	FinPara
+	
+Fin Funcion
+
+
+Funcion leernota (notas1)
+
+	Para i=0 Hasta 29 Hacer
+		
+	
+		Escribir notas1(i)
+	FinPara
+	
+Fin Funcion
+
+Funcion alta= notaalta ( notas1 )
+	alta=0;
+	
+	Para i=0 Hasta 29 Hacer
+		
+		si alta<notas1[i] 
+			alta=notas1[i]
+		FinSi
+	
+	FinPara
+	Escribir "nota mas alta" alta
+Fin Funcion
+
+Funcion baja= notabaja ( notas1 )
+	baja=notas1[0];
+	
+	Para i=0 Hasta 29 Hacer
+		
+		si baja>notas1[i] 
+			baja=notas1[i]
+		FinSi
+		
+	FinPara
+	Escribir "nota mas baja" baja
+Fin Funcion
+Algoritmo notas
+	
+	Dimensionar notas1[30];	
+	llenar(notas1)
+	leernota(notas1)
+	alta=notaalta(notas1)
+	baja=notabaja(notas1)
+prom=promedio(notas1)
+
+FinAlgoritmo
