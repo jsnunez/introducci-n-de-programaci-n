@@ -1,3 +1,4 @@
+cambio desde mi pc local
 Funcion prom <- promedio (notas1)
 	
 	Para i=0 Hasta 29 Hacer
