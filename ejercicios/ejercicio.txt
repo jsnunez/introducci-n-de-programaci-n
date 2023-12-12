@@ -1,5 +1,5 @@
 cambio desde mi pc local nuevo
-
+uiofgoidsg
 Funcion prom <- promedio (notas1)
 	
 	Para i=0 Hasta 29 Hacer
