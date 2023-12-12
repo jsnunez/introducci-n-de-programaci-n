@@ -1,4 +1,5 @@
-cambio desde mi pc local
+cambio desde mi pc local nuevo
+
 Funcion prom <- promedio (notas1)
 	
 	Para i=0 Hasta 29 Hacer
